@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 
 function App() {
   const [input, setInput] = useState("");
-  const [preview, setPreview] = useState("Preview");
+  const [preview, setPreview] = useState("Preview will appear here");
   const [crazyChecked, setCrazyChecked] = useState(false);
   const [normalChecked, setNormalChecked] = useState(false);
 
